@@ -1,0 +1,21 @@
+.main-container-aboutus {
+    display:flex;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+#banner-image-aboutus {
+    width:100%;
+    height: auto;
+    flex-grow: 1;
+}
+#text-aboutus {
+    flex-grow: 1;
+    display:flex;
+}
+#text-aboutus p{
+    flex-grow: 1;
+    font-size: 18pt;
+    padding-bottom: 500px;
+}

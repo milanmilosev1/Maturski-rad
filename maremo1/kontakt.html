@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/kontakt.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/grckaponude.css" />
+    <link rel="stylesheet" href="css/stylegrcka.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maremo Travel</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <div class="header">
+      <div class="header-logo">
+        <a href="index.html" class="header-logo"
+          ><img src="slike/marmeo1.jfif"
+        /></a>
+      </div>
+      <!--NAVBAR START-->
+      <nav class="header-nav">
+        <div class="dropdown">
+          <button disabled><a href="#">Letovanje</a></button>
+          <div class="dropdown-content">
+            <a href="grcka.html">Grcka</a>
+            <a href="egipat.html">Egipat</a>
+            <a href="#">Turska</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button disabled><a href="#">Zimovanje</a></button>
+          <div class="dropdown-content">
+            <a href="#">Srbija</a>
+            <a href="#">Slovenija</a>
+            <a href="#">Bugarska</a>
+            <a href="#">Austrija</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button disabled><a href="#">Daleke destinacije</a></button>
+          <div class="dropdown-content">
+            <a href="#">Dubai</a>
+            <a href="#">Maldivi</a>
+            <a href="#">Tajland</a>
+            <a href="#">Zanzibar</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button disabled><a href="#">evropski gradovi</a></button>
+          <div class="dropdown-content">
+            <a href="#">Prag</a>
+            <a href="#">Krakov</a>
+            <a href="#">Bec</a>
+            <a href="#">Sev Italija sa posetom Veneciji</a>
+            <a href="#">Rim</a>
+            <a href="#">Trebinje</a>
+          </div>
+        </div>
+        <button disabled><a href="#">kontakt</a></button>
+        <button disabled><a href="#">o nama</a></button>
+      </nav>
+      <!--NAVBAR END-->
+    </div>
+    <div class="container-under"></div>
+    <!--HEADER END-->
+
+    <!--MAIN PAGE TEXT-->
+
+    <!--MAIN PAGE TEXT END-->
+
+    <!--Footer -->
+    <div class="footer">
+      <!--footer links start-->
+      <div class="footer-links">
+        <ul>
+          <li><a id="link" href="index.html">Pocetna</a></li>
+          <li><a id="link" href="#">Kontakt</a></li>
+          <li><a id="link" href="#">O nama</a></li>
+        </ul>
+      </div>
+      <!--footer links end-->
+
+      <div class="footer-social">
+        <a href="#"
+          ><img
+            id="social-logo"
+            alt="facebook"
+            src="slike/facebook-svgrepo-com.svg"
+        /></a>
+        <a href="#"
+          ><img
+            id="social-logo"
+            alt="instagram"
+            src="slike/instagram-2-1-logo-svgrepo-com.svg"
+        /></a>
+        <a href="#"
+          ><img
+            id="social-logo"
+            alt="gmail"
+            src="slike/gmail-old-svgrepo-com.svg"
+        /></a>
+      </div>
+    </div>
+    <!--Footer End-->
+
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function () {
+        document.getElementById("radio" + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+  </body>
+</html>
