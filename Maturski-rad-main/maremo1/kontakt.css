@@ -1,0 +1,32 @@
+.map {
+  margin-left: 70px;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  padding-right: 100px;
+}
+.form-kontakt {
+  display: inline-block;
+  width: 500px;
+  padding: 20px;
+}
+input {
+  width: 100%;
+  padding: 6px;
+  outline: none;
+  border: none;
+  margin: 6px 0px;
+}
+#send-email {
+  width: 150px;
+  padding: 6px;
+  cursor: pointer;
+  background-color: #e9c46a;
+  border: none;
+  font-family: "Rowdies", cursive;
+  color: white;
+}
+.myForm-kontakt p {
+  font-size: 30px;
+  color: white;
+}

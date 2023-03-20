@@ -1,0 +1,12 @@
+.main-container-aboutus {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+#text-aboutus p {
+  color: white;
+  font-size: 35px;
+  width: 700px;
+  margin: auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
